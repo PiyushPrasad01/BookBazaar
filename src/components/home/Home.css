@@ -1,0 +1,157 @@
+.home__container {
+  /* margin-top: -60px; */
+
+  width: 100%;
+  /* z-index: -1; */
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+
+  /* max-width: 1500px; */
+}
+
+.home__aboutStar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  position: relative;
+  top: 0;
+}
+
+.home__aboutStar__sell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+  height: 20px;
+  position: relative;
+  top: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: -10px;
+  background: linear-gradient(var(--color-primary-variant), white);
+}
+
+.home__row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.home__image {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 0 0 10px 10px;
+}
+
+.home__aboutStar > small {
+  font-size: 12px;
+}
+
+.home__aboutStar__sell > small {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.category__name {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+/* :start */
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.toLanding {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 10px;
+  transition: var(--transition);
+  color: var(--color-bg);
+  margin: 7px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.toLanding:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.5);
+}
+
+.showMore {
+  margin-top: -7px;
+  padding: 1px;
+  margin-bottom: 8px;
+  padding: 5px;
+  font-size: 14px;
+  color: var(--color-bg);
+}
+/* :end */
+
+@media (max-width: 560px) {
+  .home__row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    
+  }
+
+  .home__aboutStar {
+    margin-top: 4px;
+    height: 12px;
+    margin-bottom: -4px;
+  }
+
+  .showMore {
+    position: relative;
+    margin-top: -8px;
+    color: black;
+    margin-bottom: 1px;
+    padding: 1px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 900px) {
+  .home__row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6px;
+    margin-left: 2px;
+    margin-right: 12px;
+  }
+}
