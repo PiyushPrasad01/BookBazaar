@@ -25,8 +25,6 @@ BookBazaar is designed to facilitate easy and secure book trading among users. T
 - **Firebase Realtime Database:** For managing book listings and transactions with real-time synchronization.
 - **CSS Modules:** For modular and maintainable styling.
 - **React Router:** For managing navigation within the application.
-- **Node.js and Express.js:** For setting up the backend services (if applicable).
-- **GitHub API:** For integrating user profiles and skill assessments (if applicable).
 
 ### Skills Utilized
 
@@ -34,7 +32,6 @@ BookBazaar is designed to facilitate easy and secure book trading among users. T
 - **Backend Development:** Node.js, Express.js (if applicable).
 - **Database Management:** Firebase Realtime Database.
 - **Authentication:** Firebase Authentication.
-- **API Integration:** GitHub API (if applicable).
 - **Version Control:** Git, GitHub.
 
 ## Getting Started with Create React App
